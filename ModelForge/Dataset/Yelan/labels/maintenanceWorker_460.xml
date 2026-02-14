@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>maintenanceWorker_460.jpg</filename>
+	<path>D:\code_tools\spiders\Dataset\Yelan\images\maintenanceWorker_460.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>1399</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>夜兰</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>55</xmin>
+			<ymin>6</ymin>
+			<xmax>800</xmax>
+			<ymax>1399</ymax>
+		</bndbox>
+	</object>
+</annotation>
