@@ -1,0 +1,28 @@
+# 数据集
+dataset: FashionMNIST
+# 早停参数及模型保存路径
+early_stopping:
+  patience: 10
+  delta: 0.001
+  save_path: "./SaveModels"
+  verbose: true
+# 模型保存路径
+model_save_path: "./SaveModels"
+# 数据集类别数
+num_classes: 10
+# 小批量大小
+batch_size: 64
+# 训练集验证集切割比例
+val_ratio: 0.2
+# 使用GPU or CPU
+device: cuda:0
+# 迭代次数
+num_epochs: 20
+# 模型类名
+model_class: GoogLeNet
+# 损失函数
+criterion: CrossEntropyLoss
+# 学习率
+lr: 0.01
+# 优化器
+optimizer: SGD
